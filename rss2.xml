@@ -9,7 +9,7 @@
     <atom:link href="http://example.com/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description></description>
-    <pubDate>Sat, 19 Nov 2022 17:00:18 GMT</pubDate>
+    <pubDate>Sun, 20 Nov 2022 04:55:15 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
@@ -20,13 +20,15 @@
       
         
         
-      <description>&lt;p&gt;莫非，未经世故的阿良良木同学，对我可爱的私服模样心神荡漾，幸福地看晕了？&lt;/p&gt;
+      <description>&lt;blockquote&gt;
+&lt;center&gt;莫非，未经世故的阿良良木同学，&lt;center&gt;
+对我可爱的私服模样心神荡漾，幸福地看晕了？&lt;/blockquote&gt;
 </description>
         
       
       
       
-      <content:encoded><![CDATA[<p>莫非，未经世故的阿良良木同学，对我可爱的私服模样心神荡漾，幸福地看晕了？</p>]]></content:encoded>
+      <content:encoded><![CDATA[<blockquote><center>莫非，未经世故的阿良良木同学，<center>对我可爱的私服模样心神荡漾，幸福地看晕了？</blockquote>]]></content:encoded>
       
       
       
