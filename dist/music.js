@@ -8,14 +8,14 @@ const ap = new APlayer({
       name: '二言目',
       artist: '荡漾',
       url: 'http://music.163.com/song/media/outer/url?id=460638.mp3',
-      cover: '/images/Dy。jpg',
+      cover: '/images/Dy.jpg',
       theme: '#eee7e0'
     },
     {
       name: '二言目',
       artist: '荡漾',
       url: 'http://music.163.com/song/media/outer/url?id=460638.mp3',
-      cover: '/images/Dy。jpg',
+      cover: '/images/Dy.jpg',
       theme: '#eee7e0'
     }
   ]
