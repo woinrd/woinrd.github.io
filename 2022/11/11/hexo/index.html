@@ -117,20 +117,20 @@
   <meta name="description" content="我与我的博客">
 <meta property="og:type" content="article">
 <meta property="og:title" content="我与我">
-<meta property="og:url" content="http://example.com/hexo/index.html">
+<meta property="og:url" content="http://example.com/2022/11/11/hexo/index.html">
 <meta property="og:site_name" content="蕩漾">
 <meta property="og:description" content="我与我的博客">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="http://example.com/hexo/image-20221214011605942.png">
+<meta property="og:image" content="http://example.com/2022/11/11/hexo/image-20221214011605942.png">
 <meta property="article:published_time" content="2022-11-10T16:00:00.000Z">
 <meta property="article:modified_time" content="2022-12-13T17:53:53.606Z">
 <meta property="article:author" content="羽生绯木">
 <meta property="article:tag" content="学无止境">
 <meta property="article:tag" content="Hexo">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="http://example.com/hexo/image-20221214011605942.png">
+<meta name="twitter:image" content="http://example.com/2022/11/11/hexo/image-20221214011605942.png">
 
-<link rel="canonical" href="http://example.com/hexo/">
+<link rel="canonical" href="http://example.com/2022/11/11/hexo/">
 
 
 <script id="page-configurations">
@@ -293,7 +293,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://example.com/hexo/">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2022/11/11/hexo/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
@@ -600,7 +600,7 @@
 <figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">&lt;div&gt;</span><br><span class="line">    &#123;% if not is_index %&#125;</span><br><span class="line">        &lt;div style=&quot;text-align:center;color: #ccc;font-size:24px;&quot;&gt;-------------本文结束&lt;i class=&quot;fa fa-paw&quot;&gt;&lt;/i&gt;感谢您的阅读-------------&lt;/div&gt;</span><br><span class="line">    &#123;% endif %&#125;</span><br><span class="line">&lt;/div&gt;</span><br></pre></td></tr></table></figure>
 
 <p>接着打开&#x2F;themes&#x2F;next&#x2F;layout&#x2F;_macro&#x2F;post.swig文件，在post-footer前添加代码：</p>
-<p><img src="/hexo/image-20221214011605942.png"></p>
+<p><img src="/2022/11/11/hexo/image-20221214011605942.png"></p>
 <figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">&#123;% if not is_index and theme.passage_end_tag.enabled %&#125;</span><br><span class="line">  &lt;div&gt;</span><br><span class="line">    &#123;% include &#x27;passage-end-tag.swig&#x27; %&#125;</span><br><span class="line">  &lt;/div&gt;</span><br><span class="line">&#123;% endif %&#125;</span><br></pre></td></tr></table></figure>
 
 <p>然后打开<strong>主题</strong>配置文件（_config.yml)，在末尾添加：</p>
@@ -678,11 +678,11 @@
         
     <div class="post-nav">
       <div class="post-nav-item">
-    <a href="/hello-world/" rel="prev" title="戦場ヶ原">
+    <a href="/2022/01/01/hello-world/" rel="prev" title="戦場ヶ原">
       <i class="fa fa-chevron-left"></i> 戦場ヶ原
     </a></div>
       <div class="post-nav-item">
-    <a href="/wu-yu-xi-lie/" rel="next" title="物語系列">
+    <a href="/2022/11/12/wu-yu-xi-lie/" rel="next" title="物語系列">
       物語系列 <i class="fa fa-chevron-right"></i>
     </a></div>
     </div>
